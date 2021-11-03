@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Header de la pagina */
+.header{
+  @apply bg-colorclc p-1 text-2xl font-semibold text-white flex shadow-2xl;
+}
+
+.title{
+  @apply py-7;
+}
+
+/* Main de la pagina */
+.titulosPrincipales{
+@apply font-normal text-7xl text-center shadow-lg p-5 text-colorclc-light w-screen;
+}
+
+.parrilla{
+  @apply grid grid-cols-1 gap-4 p-10 sm:grid-cols-3;
+}
+
+.marcoTitulo{
+  @apply bg-colorclc rounded-lg p-3 text-white w-96 shadow-lg m-auto text-center;
+}
+
+.contenedor1{
+  @apply bg-footer-texture-car bg-cover h-96 rounded-md p-5 bg-opacity-20 shadow-xl  text-2xl font-semibold ;
+}
+
+.contenedor2{
+  @apply bg-footer-texture-cab bg-cover h-96 rounded-md p-5 bg-opacity-20 shadow-xl text-2xl font-semibold;
+}
+
+.contenedor3{
+  @apply bg-footer-texture-paj bg-cover h-96 rounded-md p-5 bg-opacity-20 shadow-xl  text-2xl font-semibold;
+}
+
+.contenedor4{
+  @apply bg-footer-texture-rad bg-cover h-96 rounded-md p-5 bg-opacity-20 shadow-xl  text-2xl font-semibold;
+}
+
+.contenedor5{
+  @apply bg-footer-texture-air bg-cover h-96 rounded-md p-5 bg-opacity-20 shadow-xl  text-2xl font-semibold;
+}
+
+.contenedor6{
+  @apply bg-footer-texture-tap bg-cover h-96 rounded-md p-5 bg-opacity-20 shadow-xl  text-2xl font-semibold;
+}
+
+.clientblock{
+@apply bg-footer-texture-clt w-screen h-screen bg-no-repeat bg-cover;
+}
+
+/* Footer de la pagina */
+
+.footer{
+  @apply bg-footer-texture bg-no-repeat bg-cover text-white font-medium  h-96 py-10 px-10 shadow-lg flex;
+}
+
+.footerBlock{
+  @apply w-2/6 p-6 max-w-md mx-auto bg-white rounded-xl shadow-md flex items-start space-x-4 border-colorclc border-2 bg-opacity-20 flex-col text-3xl text-left;
+}
+
+.footertext{
+  @apply text-xl font-bold pt-3;
+}
+
+.picFooter{
+  @apply px-20
+}
