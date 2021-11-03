@@ -1,6 +1,10 @@
 {
   "name": "clc-servicos",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.18.0",
+    "npm": "8.1.1"
+  },
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.0",
