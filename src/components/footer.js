@@ -10,7 +10,7 @@ const Footer = () => {
         <div>(+57) 3045932421</div>
         <div className="footertext">Campestre Mz 1 Lote 17 Frente a Proleca</div>
         <div className="footertext">Kilometro 1 Mamonal</div>
-        <div className="picFooter"><img src={logo} width="200px"></img></div>
+        <div className="picFooter"><img src={logo} width="200px" alt=" "></img></div>
       </div>
       <div className="footerBlock">
         Horario de Atención
