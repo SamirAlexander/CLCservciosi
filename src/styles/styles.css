@@ -5,24 +5,28 @@
 
 /* Header de la pagina */
 .header{
-  @apply bg-colorclc p-1 text-2xl font-semibold text-white flex shadow-2xl;
+  @apply bg-colorclc  text-sm md:text-2xl font-semibold text-white shadow-2xl w-screen h-28;
+}
+
+.parrillaHeader{
+  @apply grid grid-cols-2 gap-4 p-5 md:grid-cols-3;
 }
 
 .title{
-  @apply py-7;
+  @apply py-1 text-center;
 }
 
 /* Main de la pagina */
 .titulosPrincipales{
-@apply font-normal text-7xl text-center shadow-lg p-5 text-colorclc-light w-screen;
+@apply font-normal text-5xl md:text-7xl text-center shadow-lg p-5 text-colorclc-light w-screen;
 }
 
 .parrilla{
-  @apply grid grid-cols-1 gap-4 p-10 sm:grid-cols-3;
+  @apply grid grid-cols-1 gap-4 p-5 md:grid-cols-3;
 }
 
 .marcoTitulo{
-  @apply bg-colorclc rounded-lg p-3 text-white w-96 shadow-lg m-auto text-center;
+  @apply bg-colorclc rounded-lg p-3 text-white w-44 md:w-60 shadow-lg m-auto text-sm md:text-xl text-center;
 }
 
 .contenedor1{
@@ -56,15 +60,15 @@
 /* Footer de la pagina */
 
 .footer{
-  @apply bg-footer-texture bg-no-repeat bg-cover text-white font-medium  h-96 py-10 px-10 shadow-lg flex;
+  @apply bg-footer-texture bg-no-repeat bg-cover text-white font-medium  h-96 py-10 px-10 shadow-lg flex grid grid-cols-1 gap-4 p-5 md:grid-cols-3;
 }
 
 .footerBlock{
-  @apply w-2/6 p-6 max-w-md mx-auto bg-white rounded-xl shadow-md flex items-start space-x-4 border-colorclc border-2 bg-opacity-20 flex-col text-3xl text-left;
+  @apply rounded-lg border-colorclc border-2 bg-opacity-20 flex-col text-xl md:text-3xl h-52 md:h-80 md:flex;
 }
 
 .footertext{
-  @apply text-xl font-bold pt-3;
+  @apply m-auto w-48 text-center;
 }
 
 .picFooter{

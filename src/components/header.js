@@ -7,9 +7,16 @@ import logo from "media/LogoCLC.png";
 const Header = () => {
   return (
     <div className="header">
-      <img src={logo} width="200px" alt=" "/>
-      <div className="title">
-        Soluciones Integrales para Maquinaria, Equipos & vehículos
+      <div className="parrillaHeader">
+        <div>
+          <img src={logo} width="200px" alt=" " />
+        </div>
+        <div className="title">
+          Soluciones Integrales para Maquinaria, Equipos & vehículos
+        </div>
+        {/* <div>Bloque por definir</div> */}
+
+        <div></div>
       </div>
     </div>
   );

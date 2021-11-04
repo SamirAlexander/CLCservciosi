@@ -9,13 +9,13 @@ const Main = () => {
       </div>
       <div className="parrilla">
         <div className="contenedor1">
-          <div className="marcoTitulo"> Línea Vehículos Livianos</div>
+          <div className="marcoTitulo"> Latotonería Automotriz</div>
         </div>
         <div className="contenedor2">
-          <div className="marcoTitulo"> Línea Vehículos Pesados</div>
+          <div className="marcoTitulo"> Latonería Pesada</div>
         </div>
         <div className="contenedor3">
-          <div className="marcoTitulo"> Línea Maquinaria & Equipos</div>
+          <div className="marcoTitulo"> Pintura de Maquinaria</div>
         </div>
         <div className="contenedor4">
           <div className="marcoTitulo">Radiadores</div>
