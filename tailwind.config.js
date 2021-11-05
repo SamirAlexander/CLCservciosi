@@ -28,6 +28,8 @@
           "footer-texture-air": "url('media/aireAcond.png')",
           "footer-texture-tap": "url('media/tapiceria.jpg')",
           "footer-texture-clt": "url('media/clientes.png')",
+          "footer-texture-clt1": "url('media/clientes1.jpg')",
+          "footer-texture-clt2": "url('media/clientes2.jpg')",
         },
       },
     },

@@ -58,9 +58,19 @@
 }
 
 .clientblock{
-@apply bg-footer-texture-clt w-screen h-screen bg-no-repeat bg-cover;
+@apply m-auto mb-32 w-screen h-screen bg-no-repeat bg-cover md:h-96;
+}
+.parrillaClientes{
+  @apply grid grid-cols-1 gap-4 mt-5 md:grid-cols-2 gap-4;
 }
 
+.blockClient1{
+  @apply m-auto bg-footer-texture-clt1 bg-cover h-96 w-96  w-16;
+}
+
+.blockClient2{
+  @apply m-auto bg-footer-texture-clt2 bg-cover h-96 w-96  w-16;
+}
 /* Footer de la pagina */
 
 .footer{
