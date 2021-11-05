@@ -5,15 +5,19 @@
 
 /* Header de la pagina */
 .header{
-  @apply bg-colorclc  text-sm md:text-2xl font-semibold text-white shadow-2xl w-screen h-28;
+  @apply bg-colorclc h-16 text-sm md:text-2xl font-semibold text-white shadow-2xl w-screen h-28;
 }
 
 .parrillaHeader{
-  @apply grid grid-cols-2 gap-4 p-5 md:grid-cols-3;
+  @apply grid grid-cols-2 gap-4 p-0 md:grid-cols-3;
 }
 
 .title{
-  @apply py-1 text-center;
+  @apply  text-center p-4;
+}
+
+.blockheader{
+  @apply bg-opacity-0;
 }
 
 /* Main de la pagina */

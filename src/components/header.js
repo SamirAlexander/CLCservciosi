@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="parrillaHeader">
-        <div>
+        <div className="blockheader">
           <img src={logo} width="200px" alt=" " />
         </div>
-        <div className="title">
+        <div className="title" >
           Soluciones Integrales para Maquinaria, Equipos & vehículos
         </div>
         {/* <div>Bloque por definir</div> */}
