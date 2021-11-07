@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="titulosPrincipales">
-        <div>Nuestros Servicios</div>
+        Nuestros Servicios
       </div>
       <div className="parrilla">
         <div className="contenedor1">
@@ -26,18 +26,16 @@ const Main = () => {
         <div className="contenedor6">
           <div className="marcoTitulo">Tapiceria Vehicular</div>
         </div>
-        <div>
-          <div className="titulosPrincipales">
-            <div>Nuestros Clientes</div>
-          </div>
-          <div className="clientblock">
-          <div class="parrillaClientes" >
-            <div className="blockClient1"></div>
-            <div className="blockClient2"></div>
-          </div>
-          </div>
-        </div>
       </div>
+          <div className="titulosPrincipales">
+            Nuestros Clientes
+          </div>
+          
+            <div class="parrillaClientes" >
+              <div className="blockClient1"></div>
+              <div className="blockClient2"></div>
+            </div>
+          
     </div>
   );
 }

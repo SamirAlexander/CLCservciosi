@@ -5,7 +5,7 @@ import logo from "media/LogoCLC.png";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footerBlock">
+      <div className="footerBlock1">
         <div className="footertext">CONTACTANOS</div>
         <br />
         <div className="footertext">(+057)300857872</div>
@@ -14,8 +14,8 @@ const Footer = () => {
           <img alt=" " src={logo}></img>
         </div>
       </div>
-      <div className="footerBlock">sasasas</div>
-      <div className="footerBlock">sasasas</div>
+      <div className="footerBlock2">sasasas</div>
+      <div className="footerBlock3">sasasas</div>
     </div>
   );
 }

@@ -4,6 +4,22 @@
 
 
 /* Header de la pagina */
+.header2{
+  @apply bg-footer-texture-car2 h-96 bg-cover;
+}
+
+.logoheader{
+  @apply flex ;
+}
+
+.nombreEmpresa{
+  @apply border-4 text-2xl m-auto w-44 text-white font-semibold text-center p-1 rounded-lg;
+}
+
+.nombreEmpresa2{
+  @apply text-2xl m-auto  text-white font-semibold text-center p-1;
+}
+
 .header{
   @apply bg-colorclc h-16 text-sm md:text-2xl font-semibold text-white shadow-2xl w-screen h-28;
 }
@@ -22,7 +38,7 @@
 
 /* Main de la pagina */
 .titulosPrincipales{
-@apply font-normal text-5xl md:text-7xl text-center shadow-lg p-5 text-colorclc-light w-screen;
+@apply font-normal text-3xl md:text-4xl text-center shadow-lg p-5 text-colorclc-light w-auto;
 }
 
 .parrilla{
@@ -58,18 +74,18 @@
 }
 
 .clientblock{
-@apply m-auto mb-32 w-screen h-screen bg-no-repeat bg-cover md:h-96;
+@apply mb-32 w-80 h-screen bg-no-repeat bg-cover md:h-96 -space-x-3;
 }
 .parrillaClientes{
-  @apply grid grid-cols-1 gap-4 mt-5 md:grid-cols-2 gap-4;
+  @apply grid grid-cols-1 gap-4 mt-5 md:grid-cols-2 gap-4 w-screen;
 }
 
 .blockClient1{
-  @apply m-auto bg-footer-texture-clt1 bg-cover h-96 w-96  w-16;
+  @apply bg-footer-texture-clt1 bg-cover h-96 w-80 m-auto;
 }
 
 .blockClient2{
-  @apply m-auto bg-footer-texture-clt2 bg-cover h-96 w-96  w-16;
+  @apply bg-footer-texture-clt2 bg-cover h-96 w-80 m-auto;
 }
 /* Footer de la pagina */
 
@@ -77,8 +93,16 @@
   @apply bg-footer-texture bg-no-repeat bg-cover text-white font-medium  h-96 py-10 px-10 shadow-lg flex grid grid-cols-1 gap-4 p-5 md:grid-cols-3;
 }
 
-.footerBlock{
-  @apply rounded-lg border-colorclc border-2 bg-opacity-20 flex-col text-xl md:text-3xl h-52 md:h-80 md:flex;
+.footerBlock1{
+  @apply rounded-lg border-colorclc border-2 bg-opacity-20  text-xl md:text-3xl h-52 md:h-80 md:flex;
+}
+
+.footerBlock2{
+  @apply  hidden md:inline text-3xl h-52 md:h-80 rounded-lg border-colorclc border-2 bg-opacity-20  text-xl;
+}
+
+.footerBlock3{
+  @apply  hidden md:inline text-3xl h-52 md:h-80 rounded-lg border-colorclc border-2 bg-opacity-20  text-xl;
 }
 
 .footertext{

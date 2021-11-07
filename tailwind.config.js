@@ -30,6 +30,7 @@
           "footer-texture-clt": "url('media/clientes.png')",
           "footer-texture-clt1": "url('media/clientes1.jpg')",
           "footer-texture-clt2": "url('media/clientes2.jpg')",
+          "footer-texture-car2": "url('media/headerPagina.jpg')",
         },
       },
     },
