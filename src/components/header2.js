@@ -6,7 +6,7 @@ const Header2 = () => {
         <div className="header2">
             <img className="logoheader" src={logo} width="200px" alt=" " />
             <div className="nombreEmpresa">CLC Servicios</div>
-            <div className="nombreEmpresa2">Especialistas en la Imagen de tu Vehículo</div>
+            <div className="nombreEmpresa2">Especialistas en la Imagen de su Vehículo</div>
         </div>
     )
 }

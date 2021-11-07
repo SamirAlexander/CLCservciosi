@@ -13,27 +13,11 @@
 }
 
 .nombreEmpresa{
-  @apply border-4 text-2xl m-auto w-44 text-white font-semibold text-center p-1 rounded-lg;
+  @apply border-4 text-2xl m-auto w-44 text-white font-semibold text-center p-1 rounded-lg mt-8;
 }
 
 .nombreEmpresa2{
-  @apply text-2xl m-auto  text-white font-semibold text-center p-1;
-}
-
-.header{
-  @apply bg-colorclc h-16 text-sm md:text-2xl font-semibold text-white shadow-2xl w-screen h-28;
-}
-
-.parrillaHeader{
-  @apply grid grid-cols-2 gap-4 p-0 md:grid-cols-3;
-}
-
-.title{
-  @apply  text-center p-4;
-}
-
-.blockheader{
-  @apply bg-opacity-0;
+  @apply text-2xl m-auto  text-white font-semibold text-center p-3;
 }
 
 /* Main de la pagina */
@@ -94,7 +78,7 @@
 }
 
 .footerBlock1{
-  @apply rounded-lg border-colorclc border-2 bg-opacity-20  text-xl md:text-3xl h-52 md:h-80 md:flex;
+  @apply rounded-lg border-colorclc border-2 bg-opacity-20 md:h-80 md:flex-col;
 }
 
 .footerBlock2{
@@ -106,9 +90,13 @@
 }
 
 .footertext{
-  @apply m-auto w-48 text-center;
+  @apply m-auto text-center text-2xl;
+}
+
+.footertext2{
+  @apply text-sm text-center text-lg;
 }
 
 .picFooter{
-  @apply px-20
+  @apply w-52 m-auto;
 }

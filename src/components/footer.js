@@ -10,8 +10,12 @@ const Footer = () => {
         <br />
         <div className="footertext">(+057)300857872</div>
         <br />
+        <div className="footertext2">gerencia@clcservicios.com</div>
+        <br />
+        <div className="footertext2">Campestre Frente a la Proleca</div>
+        <div className="footertext2">Mamonal Km 1</div>
         <div className="footertext">
-          <img alt=" " src={logo}></img>
+          <img className="picFooter" alt=" " src={logo}></img>
         </div>
       </div>
       <div className="footerBlock2">sasasas</div>
