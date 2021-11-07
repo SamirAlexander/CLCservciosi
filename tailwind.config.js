@@ -17,6 +17,9 @@
           DEFAULT: "#f0feee",
           dark: "#009eeb",
         },
+        yellow: {
+          DEFAULT: "#FFD22E",
+        },
       },
       extend: {
         backgroundImage: {

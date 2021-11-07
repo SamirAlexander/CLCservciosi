@@ -13,11 +13,11 @@
 }
 
 .nombreEmpresa{
-  @apply border-4 text-2xl m-auto w-44 text-white font-semibold text-center p-1 rounded-lg mt-8;
+  @apply border-2 text-3xl m-auto w-52 text-white bg-colorclc bg-opacity-30 font-semibold text-center p-1 rounded-lg mt-8;
 }
 
 .nombreEmpresa2{
-  @apply text-2xl m-auto  text-white font-semibold text-center p-3;
+  @apply text-lg md:border-2 md:bg-colorclc md:text-2xl m-auto mt-3 md:w-1/2 rounded-lg md:bg-opacity-30 text-white font-semibold text-center p-3;
 }
 
 /* Main de la pagina */
