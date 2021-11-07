@@ -30,12 +30,10 @@ const Main = () => {
           <div className="titulosPrincipales">
             Nuestros Clientes
           </div>
-          
             <div class="parrillaClientes" >
               <div className="blockClient1"></div>
               <div className="blockClient2"></div>
             </div>
-          
     </div>
   );
 }
