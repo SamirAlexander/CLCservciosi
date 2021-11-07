@@ -32,9 +32,9 @@ const Header2 = () => {
                 </div>
                 <div className={state}>
                     <div  className="text-sm lg:flex-grow w-36 float-right">
-                        <Link to="#responsive-header" className="w-36 block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:bg-white text-white hover:text-colorclc-light rounded-lg px-2 text-right">Acerca de Nosotros</Link>
-                        <Link to="#responsive-header" className="w-36 block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:bg-white text-white hover:text-colorclc-light rounded-lg px-2 text-right">Servicios</Link>
-                        <Link to="#responsive-header" className="w-36 block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:bg-white text-white hover:text-colorclc-light rounded-lg px-2 text-right">Contacto</Link>
+                        <Link to="#responsive-header" className="w-36 text-right block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:bg-white text-white hover:text-colorclc-light rounded-lg px-2 lg:text-center">Acerca de Nosotros</Link>
+                        <Link to="#responsive-header" className="w-36 text-right block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:bg-white text-white hover:text-colorclc-light rounded-lg px-2 lg:text-center">Servicios</Link>
+                        <Link to="#responsive-header" className="w-36 text-right block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:bg-white text-white hover:text-colorclc-light rounded-lg px-2 lg:text-center">Contacto</Link>
                     </div>
                    {/*  <div>
                         <Link to="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</Link>
